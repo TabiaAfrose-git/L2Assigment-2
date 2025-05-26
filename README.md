@@ -2,32 +2,34 @@
 
 PostgreSQL is a powerful, open-source object-relational database system widely used for enterprise-level performance and reliability.
 
-It is:
+ * It is:
     * Open Source
     * Object-Relational
     * SQL Support
     * Flexibility and Extensibility
 
-It supports a large part of the SQL standard and offers many modern features:
+* It supports a large part of the SQL standard and offers many modern features:
     1. complex queries
     2. foreign keys
     3. triggers
     4. updatable views
     5. transactional integrity
 
-PostgreSQL can be extended by the user in many ways, for example by adding new
+* PostgreSQL can be extended by the user in many ways, for example by adding new
     1. data types
     2. functions
     3. operators
     4. aggregate functions
     5. index methods
 
-Use Cases:
+* Use Cases:
     1. Web applications
     2. Mobile applications
     3. Data warehousing
     4. Geospatial applications
     5. Financial applications
+
+
 2. How can you modify data using UPDATE statements?
 
 firstly,
@@ -44,6 +46,7 @@ Example:
     UPDATE employees
     SET department = 'Marketing'
     WHERE id = 1;
+
 
 3. Explain the GROUP BY clause and its role in aggregation operations.
 
